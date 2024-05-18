@@ -21,7 +21,13 @@ public enum TITLE_FORM
     f2BtnOff,
     f2BtnLanguage,
     f2BtnVN,
-    f2BtnE
+    f2BtnE,
+    // f3
+    f3BtnContinue,
+    f3BtnQuit,
+    // f4
+    f4BtnContinue,
+    f4BtnQuit
 }
 namespace Caro
 {
@@ -41,7 +47,7 @@ namespace Caro
         #endregion
         // Form1
         public string[,] txtTitle = { 
-            //F1
+            // F1
             { "Nhập tên của bạn?", "Enter your name?" },
             { "Bắt đầu", "Start" },
             // F2
@@ -55,7 +61,13 @@ namespace Caro
                 {"Tắt", "Off" },
             {"Ngôn ngữ", "Language" },
                 {"Tiếng Việt", "VietNamese" },
-                {"Tiếng Anh", "English" }
+                {"Tiếng Anh", "English" },
+            // F3
+            {"Tiếp tục", "Contiune" },
+            {"Màn hình chính", "Menu" },
+            // F4
+            {"Tiếp tục", "Contiune" },
+            {"Màn hình chính", "Menu" },
         };
 
     }

@@ -30,7 +30,7 @@ namespace Caro
             Form3 form3 = new Form3();
             this.Hide();
             form3.ShowDialog();
-            this.Close();
+            this.Show();
         }
 
         private void btnBoot_Click(object sender, EventArgs e)
@@ -38,7 +38,7 @@ namespace Caro
             Form4 form4 = new Form4();
             this.Hide();
             form4.ShowDialog();
-            this.Close();
+            this.Show();
         }
         private void btnBasic_Click(object sender, EventArgs e)
         {
